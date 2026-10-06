@@ -98,11 +98,11 @@ export default function Home() {
       <main>
         {/* Hero */}
         <section className="bg-gray-100 py-16 md:py-20">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-            <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-neutral-800 mb-5 text-balance leading-tight">
+          <div className="w-full px-4 sm:px-6 lg:px-10 text-center">
+            <h1 className="text-3xl md:text-5xl xl:text-6xl font-bold tracking-tight text-neutral-800 mb-5 leading-tight">
               Accelerate Global Sourcing &amp; Contract Manufacturing with AI
             </h1>
-            <h2 className="text-neutral-600 text-base md:text-xl font-normal leading-relaxed mb-10 max-w-2xl mx-auto text-balance">
+            <h2 className="text-neutral-600 text-base md:text-xl font-normal leading-relaxed mb-10">
               Find suppliers in India who&apos;ve made custom parts like yours — matched by geometry,
               application &amp; industry
             </h2>

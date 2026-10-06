@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <div className="sticky top-0 z-50 bg-white w-full border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-10">
         <div className="h-20 flex flex-row justify-between items-center">
           <Image src="/logo.svg" alt="CBCatalyst Logo" width={150} height={26} priority className="block h-auto" />
           <Button onClick={scrollToWaitlist} size="lg" className="font-semibold">
