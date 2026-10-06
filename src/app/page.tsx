@@ -97,18 +97,18 @@ export default function Home() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="bg-gray-100 py-16">
-          <div className="max-w-3xl mx-auto px-4 text-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-neutral-800 mb-4">
+        <section className="bg-gray-100 py-16 md:py-20">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+            <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-neutral-800 mb-5 text-balance leading-tight">
               Accelerate Global Sourcing &amp; Contract Manufacturing with AI
             </h1>
-            <h2 className="text-neutral-600 text-base md:text-lg font-normal mb-10">
+            <h2 className="text-neutral-600 text-base md:text-xl font-normal leading-relaxed mb-10 max-w-2xl mx-auto text-balance">
               Find suppliers in India who&apos;ve made custom parts like yours — matched by geometry,
               application &amp; industry
             </h2>
-            <div className="bg-white rounded-lg border border-gray-200 p-6 shadow-sm max-w-xl mx-auto">
-              <p className="text-gray-900 font-semibold mb-1">We&apos;re rebuilding.</p>
-              <p className="text-gray-600 text-sm mb-4">
+            <div className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8 shadow-sm max-w-xl mx-auto">
+              <p className="text-gray-900 text-lg font-semibold mb-1">We&apos;re rebuilding.</p>
+              <p className="text-gray-600 text-sm mb-6">
                 Join the waitlist to get early access when we relaunch.
               </p>
               <WaitlistForm />
@@ -117,10 +117,10 @@ export default function Home() {
         </section>
 
         {/* Static category imagery */}
-        <div className="w-full bg-white py-3">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="my-4">
-              <h2 className="text-gray-900 font-medium text-2xl mb-5">
+        <div className="w-full bg-white pt-12 pb-6">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-6">
+              <h2 className="text-gray-900 font-semibold text-2xl">
                 Industrial Components Sourced from India
               </h2>
             </div>
@@ -132,10 +132,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full bg-white py-2">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="my-3">
-              <h2 className="text-gray-900 font-medium text-2xl mb-5">
+        <div className="w-full bg-white py-6">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-6">
+              <h2 className="text-gray-900 font-semibold text-2xl">
                 High-Precision Manufacturing Processes
               </h2>
             </div>
@@ -147,10 +147,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full bg-white py-2">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="my-3">
-              <h2 className="text-gray-900 font-medium text-2xl mb-5">
+        <div className="w-full bg-white py-6">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-6">
+              <h2 className="text-gray-900 font-semibold text-2xl">
                 Featured Export-Ready Materials &amp; Grades
               </h2>
             </div>
@@ -162,10 +162,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full bg-white py-2 mb-6">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="my-3">
-              <h2 className="text-gray-900 font-medium text-2xl mb-5">Industries We Serve</h2>
+        <div className="w-full bg-white py-6 mb-6">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-6">
+              <h2 className="text-gray-900 font-semibold text-2xl">Industries We Serve</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-6">
               {industryCategories.map((c) => (
@@ -207,7 +207,7 @@ export default function Home() {
 
         {/* Why CBCatalyst */}
         <div className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-semibold text-center mb-2">Why CBCatalyst?</h2>
             <p className="text-center text-gray-600 mb-12">
               Find the Perfect Manufacturer in Minutes, Not Months
@@ -228,7 +228,7 @@ export default function Home() {
 
         {/* Testimonials */}
         <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-semibold text-gray-900 mb-4">What Our Customers Say</h2>
               <p className="text-gray-600 text-lg">Trusted by procurement professionals worldwide</p>
@@ -247,7 +247,7 @@ export default function Home() {
 
         {/* How it works */}
         <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-semibold text-gray-900 mb-4">Streamline Your Sourcing Process</h2>
               <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -270,7 +270,7 @@ export default function Home() {
 
         {/* Founding Team */}
         <section className="py-16 bg-gradient-to-b from-[#f653351a] to-white">
-          <div className="max-w-7xl mx-auto px-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-semibold text-cb-orange mb-4">Founding Team</h2>
             </div>

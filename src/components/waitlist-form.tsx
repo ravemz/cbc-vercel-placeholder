@@ -54,16 +54,16 @@ export default function WaitlistForm({
 
   return (
     <div className={className}>
-      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
+      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row sm:items-stretch gap-3">
         <input
           type="email"
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="you@domain.com"
-          className="border border-gray-300 rounded-md w-full p-3 focus:outline-none focus:ring-2 focus:ring-cb-orange focus:border-transparent"
+          className="border border-gray-300 rounded-md w-full h-12 px-4 text-base placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-cb-orange focus:border-transparent"
         />
-        <Button type="submit" disabled={status === "loading"} size="lg" className="whitespace-nowrap">
+        <Button type="submit" disabled={status === "loading"} className="h-12 px-6 text-base font-semibold whitespace-nowrap">
           {status === "loading" ? "Joining..." : buttonLabel}
         </Button>
       </form>
